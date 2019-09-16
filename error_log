@@ -1,0 +1,125 @@
+[14-Sep-2019 18:52:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in /home/awasthim/public_html/SafeMedia/register.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/awasthim/public_html/SafeMedia/register.php on line 11
+[14-Sep-2019 18:54:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in /home/awasthim/public_html/SafeMedia/register.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/awasthim/public_html/SafeMedia/register.php on line 11
+[14-Sep-2019 18:54:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in /home/awasthim/public_html/SafeMedia/register.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/awasthim/public_html/SafeMedia/register.php on line 11
+[14-Sep-2019 18:55:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in /home/awasthim/public_html/SafeMedia/register.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/awasthim/public_html/SafeMedia/register.php on line 11
+[14-Sep-2019 19:16:25 UTC] PHP Warning:  mysqli::__construct() expects parameter 2 to be string, array given in /home/awasthim/public_html/SafeMedia/register.php on line 11
+[14-Sep-2019 19:16:25 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 31
+[14-Sep-2019 19:16:25 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 34
+[14-Sep-2019 19:16:25 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 37
+[14-Sep-2019 19:17:41 UTC] PHP Warning:  mysqli::__construct() expects parameter 2 to be string, array given in /home/awasthim/public_html/SafeMedia/register.php on line 11
+[14-Sep-2019 19:17:41 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 31
+[14-Sep-2019 19:17:41 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 34
+[14-Sep-2019 19:17:41 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 37
+[14-Sep-2019 19:17:48 UTC] PHP Warning:  mysqli::__construct() expects parameter 2 to be string, array given in /home/awasthim/public_html/SafeMedia/register.php on line 11
+[14-Sep-2019 19:17:48 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 31
+[14-Sep-2019 19:17:48 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 34
+[14-Sep-2019 19:17:48 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 37
+[14-Sep-2019 19:22:51 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'SafeMedia'@'localhost' (using password: NO) in /home/awasthim/public_html/SafeMedia/register.php on line 11
+[14-Sep-2019 19:22:51 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 31
+[14-Sep-2019 19:22:51 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 34
+[14-Sep-2019 19:22:51 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 37
+[14-Sep-2019 19:33:30 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'safemedia'@'localhost' (using password: YES) in /home/awasthim/public_html/SafeMedia/register.php on line 11
+[14-Sep-2019 19:33:30 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 31
+[14-Sep-2019 19:33:30 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 34
+[14-Sep-2019 19:33:30 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 37
+[14-Sep-2019 19:37:00 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'safemedia'@'localhost' (using password: YES) in /home/awasthim/public_html/SafeMedia/register.php on line 11
+[14-Sep-2019 19:37:00 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 31
+[14-Sep-2019 19:37:00 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 34
+[14-Sep-2019 19:37:00 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 37
+[14-Sep-2019 19:40:56 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'safemedia'@'localhost' (using password: YES) in /home/awasthim/public_html/SafeMedia/register.php on line 11
+[14-Sep-2019 19:40:56 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 31
+[14-Sep-2019 19:40:56 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 34
+[14-Sep-2019 19:40:56 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 37
+[14-Sep-2019 20:04:24 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/awasthim/public_html/SafeMedia/register.php on line 11
+[14-Sep-2019 20:04:24 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 31
+[14-Sep-2019 20:04:24 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 34
+[14-Sep-2019 20:04:24 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 37
+[14-Sep-2019 20:07:49 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/awasthim/public_html/SafeMedia/register.php on line 11
+[14-Sep-2019 20:07:49 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 31
+[14-Sep-2019 20:07:49 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 34
+[14-Sep-2019 20:07:49 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 37
+[14-Sep-2019 20:10:21 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/awasthim/public_html/SafeMedia/register.php on line 11
+[14-Sep-2019 20:10:21 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 31
+[14-Sep-2019 20:10:21 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 34
+[14-Sep-2019 20:10:21 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 37
+[14-Sep-2019 20:15:59 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/awasthim/public_html/SafeMedia/register.php on line 11
+[14-Sep-2019 20:15:59 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 31
+[14-Sep-2019 20:15:59 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 34
+[14-Sep-2019 20:15:59 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 37
+[14-Sep-2019 20:20:54 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'user'@'localhost' (using password: YES) in /home/awasthim/public_html/SafeMedia/register.php on line 11
+[14-Sep-2019 20:20:54 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 31
+[14-Sep-2019 20:20:54 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 34
+[14-Sep-2019 20:20:54 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 37
+[14-Sep-2019 20:23:32 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'user'@'localhost' (using password: YES) in /home/awasthim/public_html/SafeMedia/register.php on line 11
+[14-Sep-2019 20:23:32 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 31
+[14-Sep-2019 20:23:32 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 34
+[14-Sep-2019 20:23:32 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 37
+[14-Sep-2019 20:35:59 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'awasthim'@'localhost' (using password: YES) in /home/awasthim/public_html/SafeMedia/register.php on line 11
+[14-Sep-2019 20:35:59 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 31
+[14-Sep-2019 20:35:59 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 34
+[14-Sep-2019 20:35:59 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 37
+[14-Sep-2019 20:37:25 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'awasthim'@'localhost' (using password: YES) in /home/awasthim/public_html/SafeMedia/register.php on line 11
+[14-Sep-2019 20:37:25 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 31
+[14-Sep-2019 20:37:25 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 34
+[14-Sep-2019 20:37:25 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 37
+[14-Sep-2019 20:37:58 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'awasthim'@'localhost' (using password: YES) in /home/awasthim/public_html/SafeMedia/register.php on line 11
+[14-Sep-2019 20:37:58 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 31
+[14-Sep-2019 20:37:58 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 34
+[14-Sep-2019 20:37:58 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 37
+[14-Sep-2019 20:42:26 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'awasthim'@'localhost' (using password: YES) in /home/awasthim/public_html/SafeMedia/register.php on line 11
+[14-Sep-2019 20:42:26 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 31
+[14-Sep-2019 20:42:26 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 34
+[14-Sep-2019 20:42:26 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 37
+[14-Sep-2019 20:43:57 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'awasthim'@'localhost' (using password: YES) in /home/awasthim/public_html/SafeMedia/register.php on line 11
+[14-Sep-2019 20:43:57 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 31
+[14-Sep-2019 20:43:57 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 34
+[14-Sep-2019 20:43:57 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 37
+[14-Sep-2019 20:44:33 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'awasthim'@'localhost' (using password: YES) in /home/awasthim/public_html/SafeMedia/register.php on line 11
+[14-Sep-2019 20:44:33 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 31
+[14-Sep-2019 20:44:33 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 34
+[14-Sep-2019 20:44:33 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 37
+[14-Sep-2019 20:48:30 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'awasthim_awasthim'@'localhost' (using password: YES) in /home/awasthim/public_html/SafeMedia/register.php on line 11
+[14-Sep-2019 20:48:30 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 31
+[14-Sep-2019 20:48:30 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 34
+[14-Sep-2019 20:48:30 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 37
+[14-Sep-2019 20:49:07 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'awasthim_awasthim'@'localhost' (using password: YES) in /home/awasthim/public_html/SafeMedia/register.php on line 11
+[14-Sep-2019 20:49:07 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 31
+[14-Sep-2019 20:49:07 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 34
+[14-Sep-2019 20:49:07 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/awasthim/public_html/SafeMedia/register.php on line 37
+[14-Sep-2019 20:56:55 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'awasthim'@'localhost' (using password: YES) in /home/awasthim/public_html/SafeMedia/register.php on line 11
+[14-Sep-2019 20:57:17 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'awasthim'@'localhost' (using password: YES) in /home/awasthim/public_html/SafeMedia/register.php on line 11
+[14-Sep-2019 20:57:46 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'awasthim'@'localhost' (using password: YES) in /home/awasthim/public_html/SafeMedia/register.php on line 11
+[14-Sep-2019 20:58:00 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'awasthim'@'localhost' (using password: YES) in /home/awasthim/public_html/SafeMedia/register.php on line 11
+[14-Sep-2019 21:01:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/awasthim/public_html/SafeMedia/register.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/awasthim/public_html/SafeMedia/register.php on line 11
+[15-Sep-2019 16:46:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/register.php:1) in /home/awasthim/public_html/SafeMedia/register.php on line 33
+[15-Sep-2019 17:04:41 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/awasthim/public_html/SafeMedia/session.php on line 7
+[15-Sep-2019 18:04:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/awasthim/public_html/SafeMedia/session.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/awasthim/public_html/SafeMedia/session.php on line 29
+[15-Sep-2019 18:06:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/awasthim/public_html/SafeMedia/session.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/awasthim/public_html/SafeMedia/session.php on line 29
+[15-Sep-2019 18:11:03 UTC] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in /home/awasthim/public_html/SafeMedia/session.php on line 29
+[15-Sep-2019 18:15:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/session.php:1) in /home/awasthim/public_html/SafeMedia/session.php on line 38
+[15-Sep-2019 18:17:04 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/awasthim/public_html/SafeMedia/session.php on line 5
+[15-Sep-2019 18:17:04 UTC] PHP Warning:  mysqli::query(): Empty query in /home/awasthim/public_html/SafeMedia/session.php on line 27
+[15-Sep-2019 18:18:59 UTC] PHP Warning:  mysqli::query(): Empty query in /home/awasthim/public_html/SafeMedia/session.php on line 24
+[15-Sep-2019 18:21:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/session.php:22) in /home/awasthim/public_html/SafeMedia/session.php on line 32
+[16-Sep-2019 17:14:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/register.php:1) in /home/awasthim/public_html/SafeMedia/register.php on line 34

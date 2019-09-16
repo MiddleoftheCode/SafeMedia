@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+<title>SafeMedia</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body id="myPage">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<style>
+
+h2{text-align:center;}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: rgb(194, 183, 32);
+  color: white;
+  margin:auto;
+  display:block;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  margin:auto; display:block;
+}
+
+.buttonContainer{float:right;}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+</style>
+
+
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="index.html" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>SafeMedia</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">Account   <i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="Presentations.html" class="w3-bar-item w3-button">Presentations</a>
+      <a href="Questionaires.html" class="w3-bar-item w3-button">Questionnaires</a>
+	  <a href="reports.html" class="w3-bar-item w3-button">Reports</a>
+      <button class="w3-bar-item w3-button" onclick="document.getElementById('id01').style.display='block'" ><?php session_start(); echo($_SESSION['username']); ?></button>
+    </div>
+  </div>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+ </div>
+
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity" style="background-color:#FDE962; ">
+  <img src="logo.png" alt="boat" style = "margin: 50px;">
+</div>
+
+<!-- LOGIN MODAL -->
+<div id="id01" class="modal">
+  
+  <form 
+  action = "/SafeMedia/session.php" method = "POST" class="modal-content animate">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="https://safemedia.ca/wp-content/uploads/2018/12/SafeMedia-logo.svg" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" id = "usernameTxt"  name = "user" placeholder="Enter Username" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" id = "passwordTxt" name = "pass" placeholder="Enter Password" required>
+        
+      <div class="buttonContainer"><button type="submit" id="submitBtn">Login</button></div>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+
+</div>
+
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>How it Works!</h2>
+<p>SafeMedia allows you to upload presentations and questionnaires , which your employees can answer based on the presentations.
+SafeMedia can then provide reports based on these answered questionnaires. </p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="step1.png" alt="Snow" style="width:20%">
+  <div class="w3-container" style = "height: 300px;">
+  <h3>Account Set Up</h3>
+  <p>Set up an Account with SafeMedia By simply entering company Information</p>
+  
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="step2.png" alt="Lights" style="width:20%">
+  <div class="w3-container" style = "height: 300px;">
+  <h3>Upload Presentations and Create Questionaires</h3>
+  <p>Upload all powerpoint presentations to your account</p>
+  <p>Use our handy tool for setting up questionaires based on your presentations</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="step3.png" alt="Mountains" style="width:20%">
+  <div class="w3-container" style = "height: 300px;">
+  <h3>Use on a Touch Screen Display</h3>
+  <p>Download our Chrome compatible application and simply login and display all presentations and questionaires</p>
+  <p>Then just have your employees download the safemedia app and use the camera to scan the generated QR code to answer questions
+  that are displayed on the screen with their phones</p>
+  </div>
+  </div>
+</div>
+
+</div>
+
+
+<!-- Pricing Row -->
+<div class="w3-row-padding w3-center w3-padding-64" id="pricing">
+    <h2>PRICING</h2>
+    <p>Choose a pricing plan that fits your needs.</p><br>
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Basic</p>
+        </li>
+         <li class="w3-padding-16"><b>10</b> Presentations</li>
+        <li class="w3-padding-16"><b>10</b> Questionnaires</li>
+        <li class="w3-padding-16"><b>24/7</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-usd"></i> 10</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <a class="w3-button w3-teal w3-padding-large" href= "signup.html"><i class="fa fa-check"></i> Sign Up</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme-l2">
+          <p class="w3-xlarge">Pro</p>
+        </li>
+       <li class="w3-padding-16"><b>Unlimited</b> Presentations</li>
+        <li class="w3-padding-16"><b>50</b> Questionnaires</li>
+        <li class="w3-padding-16"><b>24/7</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-usd"></i> 25</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <a class="w3-button w3-teal w3-padding-large" href= "signup.html"><i class="fa fa-check"></i> Sign Up</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Premium</p>
+        </li>
+        <li class="w3-padding-16"><b>Unlimited</b> Presentations</li>
+        <li class="w3-padding-16"><b>Unlimited</b> Questionnaires</li>
+        <li class="w3-padding-16"><b>24/7</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-usd"></i> 50</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <a class="w3-button w3-teal w3-padding-large" href= "signup.html"><i class="fa fa-check"></i> Sign Up</a>
+        </li>
+      </ul>
+    </div>
+</div>
+
+<!-- Contact Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+      <h3>Address</h3>
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i> Toronto,ON</p>
+      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +01 1515151515</p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i> test@test.com</p>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+      <div class="w3-section">      
+        <label>Name</label>
+        <input class="w3-input" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">      
+        <label>Email</label>
+        <input class="w3-input" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">      
+        <label>Message</label>
+        <input class="w3-input" type="text" name="Message" required>
+      </div>  
+     
+      <button type="submit" class="w3-button w3-right w3-theme">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Follow Us</h4>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</body>
+</html>
