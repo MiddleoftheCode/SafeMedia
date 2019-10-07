@@ -123,3 +123,111 @@ Stack trace:
 [15-Sep-2019 18:18:59 UTC] PHP Warning:  mysqli::query(): Empty query in /home/awasthim/public_html/SafeMedia/session.php on line 24
 [15-Sep-2019 18:21:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/session.php:22) in /home/awasthim/public_html/SafeMedia/session.php on line 32
 [16-Sep-2019 17:14:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/register.php:1) in /home/awasthim/public_html/SafeMedia/register.php on line 34
+[06-Oct-2019 17:09:40 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/register.php on line 27
+[06-Oct-2019 17:09:40 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/register.php on line 27
+[06-Oct-2019 18:06:21 UTC] PHP Warning:  Use of undefined constant value - assumed 'value' (this will throw an Error in a future version of PHP) in /home/awasthim/public_html/SafeMedia/upload.php on line 16
+[06-Oct-2019 18:06:21 UTC] PHP Warning:  fopen(upload/Week 2. Intro+to+development+with+Fragments.pptxvalue): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/upload.php on line 18
+[06-Oct-2019 18:06:21 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/upload.php on line 19
+[06-Oct-2019 18:06:21 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/upload.php on line 20
+[06-Oct-2019 18:06:56 UTC] PHP Warning:  Use of undefined constant value - assumed 'value' (this will throw an Error in a future version of PHP) in /home/awasthim/public_html/SafeMedia/upload.php on line 16
+[06-Oct-2019 19:05:50 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/awasthim/public_html/SafeMedia/index.php on line 152
+[06-Oct-2019 19:07:05 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/awasthim/public_html/SafeMedia/index.php on line 153
+[06-Oct-2019 19:07:55 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/awasthim/public_html/SafeMedia/index.php on line 153
+[06-Oct-2019 19:08:34 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/awasthim/public_html/SafeMedia/index.php on line 153
+[06-Oct-2019 19:08:41 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/awasthim/public_html/SafeMedia/index.php on line 153
+[06-Oct-2019 19:10:40 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/awasthim/public_html/SafeMedia/index.php on line 153
+[06-Oct-2019 19:10:47 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/awasthim/public_html/SafeMedia/index.php on line 153
+[06-Oct-2019 19:14:08 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/awasthim/public_html/SafeMedia/index.php on line 153
+[06-Oct-2019 19:14:20 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/awasthim/public_html/SafeMedia/index.php on line 153
+[06-Oct-2019 19:22:05 UTC] PHP Warning:  Use of undefined constant value - assumed 'value' (this will throw an Error in a future version of PHP) in /home/awasthim/public_html/SafeMedia/index.php on line 162
+[06-Oct-2019 19:22:43 UTC] PHP Warning:  Use of undefined constant value - assumed 'value' (this will throw an Error in a future version of PHP) in /home/awasthim/public_html/SafeMedia/index.php on line 162
+[06-Oct-2019 19:22:45 UTC] PHP Warning:  Use of undefined constant value - assumed 'value' (this will throw an Error in a future version of PHP) in /home/awasthim/public_html/SafeMedia/index.php on line 162
+[06-Oct-2019 19:24:59 UTC] PHP Warning:  Use of undefined constant value - assumed 'value' (this will throw an Error in a future version of PHP) in /home/awasthim/public_html/SafeMedia/index.php on line 162
+[06-Oct-2019 19:30:32 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/awasthim/public_html/SafeMedia/logout.php on line 3
+[06-Oct-2019 19:30:35 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/awasthim/public_html/SafeMedia/logout.php on line 3
+[06-Oct-2019 19:33:09 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/awasthim/public_html/SafeMedia/logout.php on line 3
+[06-Oct-2019 19:34:41 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/awasthim/public_html/SafeMedia/logout.php on line 3
+[06-Oct-2019 19:35:35 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/awasthim/public_html/SafeMedia/logout.php on line 3
+[06-Oct-2019 23:33:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpheader() in /home/awasthim/public_html/SafeMedia/Presentations.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/awasthim/public_html/SafeMedia/Presentations.php on line 61
+[06-Oct-2019 23:33:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpheader() in /home/awasthim/public_html/SafeMedia/Questionaires.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 57
+[06-Oct-2019 23:33:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpheader() in /home/awasthim/public_html/SafeMedia/reports.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/awasthim/public_html/SafeMedia/reports.php on line 56
+[06-Oct-2019 23:33:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpheader() in /home/awasthim/public_html/SafeMedia/Presentations.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/awasthim/public_html/SafeMedia/Presentations.php on line 61
+[06-Oct-2019 23:33:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpheader() in /home/awasthim/public_html/SafeMedia/Questionaires.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 57
+[06-Oct-2019 23:33:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpheader() in /home/awasthim/public_html/SafeMedia/reports.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/awasthim/public_html/SafeMedia/reports.php on line 56
+[06-Oct-2019 23:35:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpheader() in /home/awasthim/public_html/SafeMedia/Presentations.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/awasthim/public_html/SafeMedia/Presentations.php on line 61
+[06-Oct-2019 23:38:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpheader() in /home/awasthim/public_html/SafeMedia/Presentations.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/awasthim/public_html/SafeMedia/Presentations.php on line 61
+[06-Oct-2019 23:38:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/Presentations.php:4) in /home/awasthim/public_html/SafeMedia/Presentations.php on line 61
+[06-Oct-2019 23:39:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/Presentations.php:4) in /home/awasthim/public_html/SafeMedia/Presentations.php on line 61
+[06-Oct-2019 23:40:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/Presentations.php:4) in /home/awasthim/public_html/SafeMedia/Presentations.php on line 63
+[06-Oct-2019 23:40:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/Presentations.php:4) in /home/awasthim/public_html/SafeMedia/Presentations.php on line 25
+[06-Oct-2019 23:42:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/Presentations.php:4) in /home/awasthim/public_html/SafeMedia/Presentations.php on line 13
+[06-Oct-2019 23:42:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/Presentations.php:4) in /home/awasthim/public_html/SafeMedia/Presentations.php on line 15
+[06-Oct-2019 23:54:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:27) in /home/awasthim/public_html/SafeMedia/upload.php on line 31
+[06-Oct-2019 23:55:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:27) in /home/awasthim/public_html/SafeMedia/upload.php on line 31
+[06-Oct-2019 23:55:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:27) in /home/awasthim/public_html/SafeMedia/upload.php on line 31
+[07-Oct-2019 00:03:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:27) in /home/awasthim/public_html/SafeMedia/upload.php on line 31
+[07-Oct-2019 00:26:14 UTC] PHP Warning:  move_uploaded_file() expects exactly 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/upload.php on line 21
+[07-Oct-2019 00:28:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:22) in /home/awasthim/public_html/SafeMedia/upload.php on line 27
+[07-Oct-2019 00:30:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:24) in /home/awasthim/public_html/SafeMedia/upload.php on line 27
+[07-Oct-2019 00:31:14 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/awasthim/public_html/SafeMedia/upload.php on line 18
+[07-Oct-2019 00:31:19 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/awasthim/public_html/SafeMedia/upload.php on line 18
+[07-Oct-2019 00:31:36 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/awasthim/public_html/SafeMedia/upload.php on line 18
+[07-Oct-2019 00:31:42 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/awasthim/public_html/SafeMedia/upload.php on line 18
+[07-Oct-2019 00:32:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:24) in /home/awasthim/public_html/SafeMedia/upload.php on line 27
+[07-Oct-2019 00:33:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:22) in /home/awasthim/public_html/SafeMedia/upload.php on line 27
+[07-Oct-2019 00:53:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:22) in /home/awasthim/public_html/SafeMedia/upload.php on line 27
+[07-Oct-2019 00:54:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:24) in /home/awasthim/public_html/SafeMedia/upload.php on line 27
+[07-Oct-2019 00:55:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:22) in /home/awasthim/public_html/SafeMedia/upload.php on line 27
+[07-Oct-2019 00:58:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:24) in /home/awasthim/public_html/SafeMedia/upload.php on line 27
+[07-Oct-2019 00:58:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:24) in /home/awasthim/public_html/SafeMedia/upload.php on line 27
+[07-Oct-2019 00:58:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:22) in /home/awasthim/public_html/SafeMedia/upload.php on line 27
+[07-Oct-2019 01:03:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:24) in /home/awasthim/public_html/SafeMedia/upload.php on line 27
+[07-Oct-2019 01:03:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:24) in /home/awasthim/public_html/SafeMedia/upload.php on line 27
+[07-Oct-2019 01:03:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:24) in /home/awasthim/public_html/SafeMedia/upload.php on line 27
+[07-Oct-2019 01:03:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:24) in /home/awasthim/public_html/SafeMedia/upload.php on line 27
+[07-Oct-2019 01:04:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:24) in /home/awasthim/public_html/SafeMedia/upload.php on line 27
+[07-Oct-2019 01:04:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:24) in /home/awasthim/public_html/SafeMedia/upload.php on line 27
+[07-Oct-2019 01:04:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:24) in /home/awasthim/public_html/SafeMedia/upload.php on line 27
+[07-Oct-2019 01:04:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:24) in /home/awasthim/public_html/SafeMedia/upload.php on line 27
+[07-Oct-2019 01:05:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:24) in /home/awasthim/public_html/SafeMedia/upload.php on line 27
+[07-Oct-2019 01:06:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:22) in /home/awasthim/public_html/SafeMedia/upload.php on line 27
+[07-Oct-2019 01:06:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:22) in /home/awasthim/public_html/SafeMedia/upload.php on line 27
+[07-Oct-2019 01:07:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:24) in /home/awasthim/public_html/SafeMedia/upload.php on line 27
+[07-Oct-2019 01:07:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:24) in /home/awasthim/public_html/SafeMedia/upload.php on line 27
+[07-Oct-2019 01:07:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:22) in /home/awasthim/public_html/SafeMedia/upload.php on line 27
+[07-Oct-2019 01:08:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:24) in /home/awasthim/public_html/SafeMedia/upload.php on line 27
+[07-Oct-2019 01:12:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:24) in /home/awasthim/public_html/SafeMedia/upload.php on line 27
+[07-Oct-2019 01:13:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:22) in /home/awasthim/public_html/SafeMedia/upload.php on line 27
+[07-Oct-2019 01:13:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:22) in /home/awasthim/public_html/SafeMedia/upload.php on line 27
+[07-Oct-2019 01:14:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/awasthim/public_html/SafeMedia/upload.php:22) in /home/awasthim/public_html/SafeMedia/upload.php on line 27
+[07-Oct-2019 02:16:50 UTC] PHP Warning:  mkdir(): Permission denied in /home/awasthim/public_html/SafeMedia/register.php on line 28
+[07-Oct-2019 02:16:50 UTC] PHP Warning:  mkdir(): Permission denied in /home/awasthim/public_html/SafeMedia/register.php on line 29
+[07-Oct-2019 02:25:16 UTC] PHP Warning:  move_uploaded_file(Users/ma/Presentations/Week 3.  ViewPager.pptx): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/upload.php on line 21
+[07-Oct-2019 02:25:16 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpz0spWO' to 'Users/ma/Presentations/Week 3.  ViewPager.pptx' in /home/awasthim/public_html/SafeMedia/upload.php on line 21
+[07-Oct-2019 02:41:54 UTC] PHP Warning:  Use of undefined constant file - assumed 'file' (this will throw an Error in a future version of PHP) in /home/awasthim/public_html/SafeMedia/Presentations.php on line 82
+[07-Oct-2019 02:41:55 UTC] PHP Warning:  Use of undefined constant file - assumed 'file' (this will throw an Error in a future version of PHP) in /home/awasthim/public_html/SafeMedia/Presentations.php on line 82
+[07-Oct-2019 02:42:04 UTC] PHP Warning:  Use of undefined constant file - assumed 'file' (this will throw an Error in a future version of PHP) in /home/awasthim/public_html/SafeMedia/Presentations.php on line 82

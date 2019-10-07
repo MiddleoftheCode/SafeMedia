@@ -26,8 +26,8 @@ $result  = $conn->query($sql) or die($conn->error);
 
 
 if ($result->num_rows > 0) {
-    $_SESSION['login_user']= $username;
-    header("Location: http://awasthim.dev.fast.sheridanc.on.ca/SafeMedia/index.html");
+    $_SESSION["user"]= $_POST["user"];
+    header("Location: http://awasthim.dev.fast.sheridanc.on.ca/SafeMedia/index.php");
     
     
 } else {

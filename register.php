@@ -24,11 +24,17 @@ $sql = "INSERT INTO account (Name, Email, Username, Password, phnum, address) VA
 
 
 if ($conn->query($sql) === TRUE) {
-    header("Location: http://awasthim.dev.fast.sheridanc.on.ca/SafeMedia/index.html");
+    mkdir ("Users/$_POST[username]");
+    chmod("Users/$_POST[username]", 755);
+    mkdir ("Users/$_POST[username]/Presentations");
+    chmod("Users/$_POST[username]/Presentations", 755);
+     mkdir ("Users/$_POST[username]/Questions");
+     chmod("Users/$_POST[username]/Questions", 755);
+    header("Location: http://awasthim.dev.fast.sheridanc.on.ca/SafeMedia/index.php");
     die();
     
 } else {
-    header("Location: http://awasthim.dev.fast.sheridanc.on.ca/SafeMedia/signup.html");
+    header("Location: http://awasthim.dev.fast.sheridanc.on.ca/SafeMedia/signup.php");
     die();
 }
 
