@@ -231,3 +231,989 @@ Stack trace:
 [07-Oct-2019 02:41:54 UTC] PHP Warning:  Use of undefined constant file - assumed 'file' (this will throw an Error in a future version of PHP) in /home/awasthim/public_html/SafeMedia/Presentations.php on line 82
 [07-Oct-2019 02:41:55 UTC] PHP Warning:  Use of undefined constant file - assumed 'file' (this will throw an Error in a future version of PHP) in /home/awasthim/public_html/SafeMedia/Presentations.php on line 82
 [07-Oct-2019 02:42:04 UTC] PHP Warning:  Use of undefined constant file - assumed 'file' (this will throw an Error in a future version of PHP) in /home/awasthim/public_html/SafeMedia/Presentations.php on line 82
+[03-Nov-2019 17:35:56 UTC] PHP Warning:  scandir(Users/mahav/Questions/*.*): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 83
+[03-Nov-2019 17:35:56 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 83
+[03-Nov-2019 17:35:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 83
+[03-Nov-2019 17:38:42 UTC] PHP Warning:  scandir(Users/mahav/Questions/*.*): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 81
+[03-Nov-2019 17:38:42 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 81
+[03-Nov-2019 17:38:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 83
+[04-Nov-2019 02:28:08 UTC] PHP Warning:  scandir(Users//Questions/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 103
+[04-Nov-2019 02:28:08 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 103
+[04-Nov-2019 02:28:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 103
+[04-Nov-2019 02:28:08 UTC] PHP Warning:  scandir(Users//Questions/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 130
+[04-Nov-2019 02:28:08 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 130
+[04-Nov-2019 02:28:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 130
+[06-Nov-2019 00:18:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpecho() in /home/awasthim/public_html/SafeMedia/Questionaires.php:118
+Stack trace:
+#0 {main}
+  thrown in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 118
+[06-Nov-2019 00:18:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpecho() in /home/awasthim/public_html/SafeMedia/Questionaires.php:118
+Stack trace:
+#0 {main}
+  thrown in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 118
+[06-Nov-2019 00:45:22 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 109
+[06-Nov-2019 00:45:28 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 109
+[06-Nov-2019 00:49:25 UTC] PHP Warning:  scandir(Users/mahav/Questions/&lt;script&gt; document.writeln(temp); &lt;/script&gt;): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 106
+[06-Nov-2019 00:49:25 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 106
+[06-Nov-2019 00:49:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 106
+[07-Nov-2019 17:26:28 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 2 ): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 37
+[07-Nov-2019 17:26:28 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 37
+[07-Nov-2019 17:26:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 37
+[07-Nov-2019 17:26:29 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation ): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 37
+[07-Nov-2019 17:26:29 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 37
+[07-Nov-2019 17:26:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 37
+[07-Nov-2019 17:26:30 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 3 ): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 37
+[07-Nov-2019 17:26:30 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 37
+[07-Nov-2019 17:26:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 37
+[07-Nov-2019 17:35:35 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 2): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:35:35 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:35:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:35:36 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 3): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:35:36 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:35:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:35:37 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 2): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:35:37 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:35:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:35:37 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:35:37 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:35:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:38:35 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:38:35 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:38:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:38:37 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 2): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:38:37 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:38:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:38:40 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 3): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:38:40 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:38:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:38:52 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 2): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:38:52 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:38:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:38:55 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 3): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:38:55 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:38:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:47:20 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 2): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:47:20 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:47:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:47:23 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:47:23 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:47:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:47:25 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 3): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:47:25 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:47:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:47:37 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 2): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:47:37 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:47:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:47:39 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 3): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:47:39 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:47:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:47:42 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:47:42 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:47:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:49:49 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:49:49 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:49:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:49:52 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 2): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:49:52 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:49:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:49:56 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 3): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:49:56 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:49:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 36
+[07-Nov-2019 17:50:32 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 3): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:50:32 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:50:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:50:33 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 2): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:50:33 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:50:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:50:35 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 3): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:50:35 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:50:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:50:36 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:50:36 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:50:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:50:38 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 2): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:50:38 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:50:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:50:39 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 3): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:50:39 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:50:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:50:41 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:50:41 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:50:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:53:24 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:53:24 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:53:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:53:26 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 3/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:53:26 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:53:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:53:27 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 2/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:53:27 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:53:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:53:29 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:53:29 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 17:53:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 34
+[07-Nov-2019 18:00:26 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 140
+[07-Nov-2019 18:00:26 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 140
+[07-Nov-2019 18:00:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 140
+[07-Nov-2019 18:00:28 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 140
+[07-Nov-2019 18:00:28 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 140
+[07-Nov-2019 18:00:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 140
+[07-Nov-2019 18:00:29 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 2/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 140
+[07-Nov-2019 18:00:29 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 140
+[07-Nov-2019 18:00:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 140
+[07-Nov-2019 18:00:30 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 3/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 140
+[07-Nov-2019 18:00:30 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 140
+[07-Nov-2019 18:00:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 140
+[07-Nov-2019 18:01:33 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 3/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 140
+[07-Nov-2019 18:01:33 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 140
+[07-Nov-2019 18:01:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 140
+[07-Nov-2019 18:01:34 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 2/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 140
+[07-Nov-2019 18:01:34 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 140
+[07-Nov-2019 18:01:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 140
+[07-Nov-2019 18:01:36 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 140
+[07-Nov-2019 18:01:36 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 140
+[07-Nov-2019 18:01:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 140
+[07-Nov-2019 18:01:57 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 140
+[07-Nov-2019 18:01:57 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 140
+[07-Nov-2019 18:01:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 140
+[07-Nov-2019 18:01:58 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 3/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 140
+[07-Nov-2019 18:01:58 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 140
+[07-Nov-2019 18:01:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 140
+[07-Nov-2019 18:02:00 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 2/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 140
+[07-Nov-2019 18:02:00 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 140
+[07-Nov-2019 18:02:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 140
+[07-Nov-2019 18:02:16 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 2/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:02:16 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:02:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:11:14 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 2/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:11:14 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:11:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:11:16 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:11:16 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:11:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:11:17 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 2/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:11:17 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:11:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:11:18 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 3/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:11:18 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:11:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:15:56 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 3/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:15:56 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:15:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:15:57 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 2/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:15:57 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:15:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:15:58 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:15:58 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:15:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:16:11 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 2/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:16:11 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:16:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:16:12 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 3/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:16:12 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:16:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:18:06 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 2/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:18:06 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:18:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 141
+[07-Nov-2019 18:19:53 UTC] PHP Warning:  scandir(Users/mahav/Questions/ Test Presentation 2/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 142
+[07-Nov-2019 18:19:53 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 142
+[07-Nov-2019 18:19:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 142
+[07-Nov-2019 18:40:05 UTC] PHP Warning:  Use of undefined constant window - assumed 'window' (this will throw an Error in a future version of PHP) in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 122
+[07-Nov-2019 18:40:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function open() in /home/awasthim/public_html/SafeMedia/Questionaires.php:122
+Stack trace:
+#0 {main}
+  thrown in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 122
+[07-Nov-2019 18:40:13 UTC] PHP Warning:  Use of undefined constant window - assumed 'window' (this will throw an Error in a future version of PHP) in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 122
+[07-Nov-2019 18:40:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function open() in /home/awasthim/public_html/SafeMedia/Questionaires.php:122
+Stack trace:
+#0 {main}
+  thrown in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 122
+[07-Nov-2019 18:40:24 UTC] PHP Warning:  Use of undefined constant window - assumed 'window' (this will throw an Error in a future version of PHP) in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 122
+[07-Nov-2019 18:40:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function open() in /home/awasthim/public_html/SafeMedia/Questionaires.php:122
+Stack trace:
+#0 {main}
+  thrown in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 122
+[07-Nov-2019 18:40:27 UTC] PHP Warning:  Use of undefined constant window - assumed 'window' (this will throw an Error in a future version of PHP) in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 122
+[07-Nov-2019 18:40:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function open() in /home/awasthim/public_html/SafeMedia/Questionaires.php:122
+Stack trace:
+#0 {main}
+  thrown in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 122
+[07-Nov-2019 19:38:27 UTC] PHP Warning:  scandir(Users//Questions/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 144
+[07-Nov-2019 19:38:27 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 144
+[07-Nov-2019 19:38:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 144
+[07-Nov-2019 19:38:27 UTC] PHP Warning:  scandir(Users//Questions/Test Presentation 2/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 173
+[07-Nov-2019 19:38:27 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 173
+[07-Nov-2019 19:38:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 173
+[07-Nov-2019 19:38:35 UTC] PHP Warning:  scandir(Users//Questions/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 142
+[07-Nov-2019 19:38:35 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 142
+[07-Nov-2019 19:38:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 142
+[07-Nov-2019 19:38:35 UTC] PHP Warning:  scandir(Users//Questions/Test Presentation 2/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 171
+[07-Nov-2019 19:38:35 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 171
+[07-Nov-2019 19:38:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 171
+[07-Nov-2019 19:38:48 UTC] PHP Warning:  scandir(Users//Questions/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 125
+[07-Nov-2019 19:38:48 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 125
+[07-Nov-2019 19:38:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 125
+[07-Nov-2019 19:38:48 UTC] PHP Warning:  scandir(Users//Questions/Test Presentation 2/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 154
+[07-Nov-2019 19:38:48 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 154
+[07-Nov-2019 19:38:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 154
+[07-Nov-2019 19:39:45 UTC] PHP Warning:  scandir(Users//Questions/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 125
+[07-Nov-2019 19:39:45 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 125
+[07-Nov-2019 19:39:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 125
+[07-Nov-2019 19:39:45 UTC] PHP Warning:  scandir(Users//Questions/Test Presentation 2/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 154
+[07-Nov-2019 19:39:45 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 154
+[07-Nov-2019 19:39:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 154
+[07-Nov-2019 19:40:04 UTC] PHP Warning:  scandir(Users/mahav/Questions/Test Presentation 2 /): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 154
+[07-Nov-2019 19:40:04 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 154
+[07-Nov-2019 19:40:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 154
+[07-Nov-2019 19:40:06 UTC] PHP Warning:  scandir(Users/mahav/Questions/Test Presentation 3 /): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 154
+[07-Nov-2019 19:40:06 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 154
+[07-Nov-2019 19:40:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 154
+[07-Nov-2019 19:40:07 UTC] PHP Warning:  scandir(Users/mahav/Questions/Test Presentation /): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 154
+[07-Nov-2019 19:40:07 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 154
+[07-Nov-2019 19:40:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 154
+[07-Nov-2019 19:40:09 UTC] PHP Warning:  scandir(Users/mahav/Questions/Q5 /): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 154
+[07-Nov-2019 19:40:09 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 154
+[07-Nov-2019 19:40:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 154
+[07-Nov-2019 19:40:11 UTC] PHP Warning:  scandir(Users/mahav/Questions/Test Presentation /): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 154
+[07-Nov-2019 19:40:11 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 154
+[07-Nov-2019 19:40:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 154
+[07-Nov-2019 19:40:12 UTC] PHP Warning:  scandir(Users/mahav/Questions/Test Presentation 2 /): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 154
+[07-Nov-2019 19:40:12 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 154
+[07-Nov-2019 19:40:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 154
+[07-Nov-2019 19:40:14 UTC] PHP Warning:  scandir(Users/mahav/Questions/Test Presentation 3 /): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 154
+[07-Nov-2019 19:40:14 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 154
+[07-Nov-2019 19:40:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 154
+[07-Nov-2019 19:40:45 UTC] PHP Warning:  scandir(Users/mahav/Questions/Test Presentation 3 /): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 173
+[07-Nov-2019 19:40:45 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 173
+[07-Nov-2019 19:40:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 173
+[07-Nov-2019 19:40:57 UTC] PHP Warning:  scandir(Users/mahav/Questions/Test Presentation 3 /): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 173
+[07-Nov-2019 19:40:57 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 173
+[07-Nov-2019 19:40:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 173
+[07-Nov-2019 20:19:24 UTC] PHP Warning:  scandir(Users//Questions/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 123
+[07-Nov-2019 20:19:24 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 123
+[07-Nov-2019 20:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 123
+[07-Nov-2019 20:19:24 UTC] PHP Warning:  scandir(Users//Questions//): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 152
+[07-Nov-2019 20:19:24 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 152
+[07-Nov-2019 20:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 152
+[07-Nov-2019 20:19:27 UTC] PHP Warning:  scandir(Users//Questions/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 123
+[07-Nov-2019 20:19:27 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 123
+[07-Nov-2019 20:19:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 123
+[07-Nov-2019 20:19:27 UTC] PHP Warning:  scandir(Users//Questions//): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 152
+[07-Nov-2019 20:19:27 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 152
+[07-Nov-2019 20:19:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 152
+[09-Nov-2019 18:36:44 UTC] PHP Warning:  fopen(Users//Questions///Question.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 104
+[09-Nov-2019 18:36:44 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 105
+[09-Nov-2019 18:36:44 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 108
+[09-Nov-2019 18:36:46 UTC] PHP Warning:  fopen(Users//Questions///Question.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 104
+[09-Nov-2019 18:36:46 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 105
+[09-Nov-2019 18:36:46 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 108
+[09-Nov-2019 18:41:20 UTC] PHP Warning:  fopen(Users//Questions///Question.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 104
+[09-Nov-2019 18:41:20 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 105
+[09-Nov-2019 18:41:20 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 108
+[09-Nov-2019 18:41:22 UTC] PHP Warning:  fopen(Users//Questions///Question.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 104
+[09-Nov-2019 18:41:22 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 105
+[09-Nov-2019 18:41:22 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 108
+[09-Nov-2019 18:41:24 UTC] PHP Warning:  fopen(Users//Questions///Question.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 104
+[09-Nov-2019 18:41:24 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 105
+[09-Nov-2019 18:41:24 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 108
+[09-Nov-2019 18:41:26 UTC] PHP Warning:  fopen(Users//Questions///Question.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 104
+[09-Nov-2019 18:41:26 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 105
+[09-Nov-2019 18:41:26 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 108
+[09-Nov-2019 19:07:58 UTC] PHP Warning:  fopen(Users/mahav/Questions/Test Presentation 2//Question.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 107
+[09-Nov-2019 19:07:58 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 108
+[09-Nov-2019 19:07:58 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 111
+[09-Nov-2019 19:07:59 UTC] PHP Warning:  fopen(Users/mahav/Questions/Test Presentation//Question.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 107
+[09-Nov-2019 19:07:59 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 108
+[09-Nov-2019 19:07:59 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 111
+[10-Nov-2019 18:20:59 UTC] PHP Warning:  scandir(Users//Questions/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 231
+[10-Nov-2019 18:20:59 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 231
+[10-Nov-2019 18:20:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 231
+[10-Nov-2019 18:20:59 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 235
+[10-Nov-2019 18:20:59 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:20:59 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:20:59 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:20:59 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:20:59 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:20:59 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:20:59 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 243
+[10-Nov-2019 18:20:59 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:20:59 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:20:59 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:20:59 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 247
+[10-Nov-2019 18:20:59 UTC] PHP Warning:  scandir(Users//Questions/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 270
+[10-Nov-2019 18:20:59 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 270
+[10-Nov-2019 18:20:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 270
+[10-Nov-2019 18:20:59 UTC] PHP Warning:  scandir(Users//Questions/Test Presentation/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 299
+[10-Nov-2019 18:20:59 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 299
+[10-Nov-2019 18:20:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 299
+[10-Nov-2019 18:21:44 UTC] PHP Warning:  scandir(Users//Questions/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:21:44 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:21:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:21:44 UTC] PHP Warning:  scandir(Users//Questions/Test Presentation/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 270
+[10-Nov-2019 18:21:44 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 270
+[10-Nov-2019 18:21:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 270
+[10-Nov-2019 18:23:30 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 234
+[10-Nov-2019 18:23:30 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 235
+[10-Nov-2019 18:23:30 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:23:30 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:23:30 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:23:30 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:23:30 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:23:30 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:23:30 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 243
+[10-Nov-2019 18:23:30 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:23:30 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:23:30 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:23:33 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 234
+[10-Nov-2019 18:23:33 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 234
+[10-Nov-2019 18:23:33 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 235
+[10-Nov-2019 18:23:33 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:23:33 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:23:33 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:23:33 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:23:33 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:23:33 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:23:33 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 243
+[10-Nov-2019 18:23:33 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:23:33 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:23:33 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:35:45 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 234
+[10-Nov-2019 18:35:45 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 234
+[10-Nov-2019 18:35:45 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 235
+[10-Nov-2019 18:35:45 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:35:45 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:35:45 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:35:45 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:35:45 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:35:45 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:35:45 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 243
+[10-Nov-2019 18:35:45 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:35:45 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:35:45 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:44:18 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:44:18 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:44:18 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:44:18 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:44:18 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:44:18 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:44:18 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:44:18 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:44:18 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:44:18 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:44:18 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:44:18 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 247
+[10-Nov-2019 18:44:18 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 248
+[10-Nov-2019 18:46:39 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:46:39 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:46:39 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:46:39 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:46:39 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:46:39 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:46:39 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:46:39 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:46:39 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:46:39 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:46:39 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:46:39 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 247
+[10-Nov-2019 18:46:39 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 248
+[10-Nov-2019 18:46:46 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:46:46 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:46:46 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:46:46 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:46:46 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:46:46 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:46:46 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:46:46 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:46:46 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:46:46 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:46:46 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:46:46 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 247
+[10-Nov-2019 18:46:46 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 248
+[10-Nov-2019 18:46:47 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:46:47 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:46:47 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:46:47 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:46:47 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:46:47 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:46:47 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:46:47 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:46:47 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:46:47 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:46:47 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:46:47 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 247
+[10-Nov-2019 18:46:47 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 248
+[10-Nov-2019 18:46:49 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:46:49 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:46:49 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:46:49 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:46:49 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:46:49 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:46:49 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:46:49 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:46:49 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:46:49 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:46:49 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:46:49 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 247
+[10-Nov-2019 18:46:49 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 248
+[10-Nov-2019 18:46:51 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:46:51 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:46:51 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:46:51 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:46:51 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:46:51 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:46:51 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:46:51 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:46:51 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:46:51 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:46:51 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:46:51 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 247
+[10-Nov-2019 18:46:51 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 248
+[10-Nov-2019 18:46:53 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:46:53 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:46:53 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:46:53 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:46:53 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:46:53 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:46:53 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:46:53 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:46:53 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:46:53 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:46:53 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:46:53 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 247
+[10-Nov-2019 18:46:53 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 248
+[10-Nov-2019 18:46:55 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:46:55 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:46:55 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:46:55 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:46:55 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:46:55 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:46:55 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:46:55 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:46:55 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:46:55 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:46:55 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:46:55 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 247
+[10-Nov-2019 18:46:55 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 248
+[10-Nov-2019 18:47:00 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:47:00 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:47:00 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:47:00 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:47:00 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:47:00 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:47:00 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:47:00 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:47:00 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:47:00 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:47:00 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:47:00 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 247
+[10-Nov-2019 18:47:00 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 248
+[10-Nov-2019 18:47:02 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:47:02 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:47:02 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:47:02 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:47:02 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:47:02 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:47:02 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:47:02 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:47:02 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:47:02 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:47:02 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:47:02 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 247
+[10-Nov-2019 18:47:02 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 248
+[10-Nov-2019 18:47:05 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:47:05 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:47:05 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:47:05 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:47:05 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:47:05 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:47:05 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:47:05 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:47:05 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:47:05 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:47:05 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:47:05 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 247
+[10-Nov-2019 18:47:05 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 248
+[10-Nov-2019 18:47:06 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:47:06 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:47:06 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:47:06 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:47:06 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:47:06 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:47:06 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:47:06 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:47:06 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:47:06 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:47:06 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:47:06 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 247
+[10-Nov-2019 18:47:06 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 248
+[10-Nov-2019 18:47:11 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:47:11 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:47:11 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:47:11 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:47:11 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:47:11 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:47:11 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:47:11 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:47:11 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:47:11 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:47:11 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:47:11 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 247
+[10-Nov-2019 18:47:11 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 248
+[10-Nov-2019 18:47:14 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:47:14 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:47:14 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:47:14 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:47:14 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:47:14 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:47:14 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:47:14 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:47:14 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:47:14 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:47:14 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:47:14 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 247
+[10-Nov-2019 18:47:14 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 248
+[10-Nov-2019 18:47:17 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:47:17 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:47:17 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:47:17 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:47:17 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:47:17 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:47:17 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:47:17 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:47:17 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:47:17 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:47:17 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:47:17 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 247
+[10-Nov-2019 18:47:17 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 248
+[10-Nov-2019 18:47:18 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:47:18 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:47:18 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:47:18 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:47:18 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:47:18 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:47:18 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:47:18 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:47:18 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:47:18 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:47:18 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:47:18 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 247
+[10-Nov-2019 18:47:18 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 248
+[10-Nov-2019 18:47:23 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:47:23 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:47:23 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:47:23 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:47:23 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:47:23 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:47:23 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:47:23 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:47:23 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:47:23 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:47:23 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:47:23 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 247
+[10-Nov-2019 18:47:23 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 248
+[10-Nov-2019 18:47:28 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:47:28 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:47:28 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:47:28 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:47:28 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:47:28 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:47:28 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:47:28 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:47:28 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:47:28 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:47:28 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:47:28 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 247
+[10-Nov-2019 18:47:28 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 248
+[10-Nov-2019 18:47:31 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:47:31 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:47:31 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:47:31 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:47:31 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:47:31 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:47:31 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:47:31 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:47:31 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:47:31 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:47:31 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:47:31 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 247
+[10-Nov-2019 18:47:31 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 248
+[10-Nov-2019 18:47:38 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:47:38 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:47:38 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:47:38 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:47:38 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:47:38 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:47:38 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:47:38 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:47:38 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:47:38 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:47:38 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:47:38 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 247
+[10-Nov-2019 18:47:38 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 248
+[10-Nov-2019 18:47:40 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:47:40 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:47:40 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:47:40 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:47:40 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:47:40 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:47:40 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:47:40 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:47:40 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:47:40 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:47:40 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:47:40 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 247
+[10-Nov-2019 18:47:40 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 248
+[10-Nov-2019 18:56:08 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:56:08 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:56:08 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:56:08 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:56:08 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:56:08 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:56:08 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:56:08 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:56:08 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:56:08 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:56:08 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:56:08 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 247
+[10-Nov-2019 18:56:08 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 248
+[10-Nov-2019 18:58:50 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:58:50 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:58:50 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:58:50 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:58:50 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:58:50 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:58:50 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:58:50 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:58:50 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:58:50 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:58:50 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:58:50 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 247
+[10-Nov-2019 18:58:50 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 248
+[10-Nov-2019 18:58:55 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:58:55 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:58:55 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:58:55 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:58:55 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:58:55 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:58:55 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:58:55 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:58:55 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:58:55 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:58:55 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:58:55 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 247
+[10-Nov-2019 18:58:55 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 248
+[10-Nov-2019 18:58:58 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:58:58 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:58:58 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:58:58 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:58:58 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:58:58 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:58:58 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:58:58 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:58:58 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:58:58 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:58:58 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:58:58 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 247
+[10-Nov-2019 18:58:58 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 248
+[10-Nov-2019 18:59:02 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:59:02 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:59:02 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:59:02 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:59:02 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:59:02 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:59:02 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:59:02 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:59:02 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:59:02 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:59:02 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:59:02 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 247
+[10-Nov-2019 18:59:02 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 248
+[10-Nov-2019 18:59:04 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:59:04 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:59:04 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:59:04 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:59:04 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:59:04 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:59:04 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:59:04 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:59:04 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:59:04 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:59:04 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:59:04 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 247
+[10-Nov-2019 18:59:04 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 248
+[10-Nov-2019 18:59:06 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:59:06 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:59:06 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:59:06 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:59:06 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:59:06 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:59:06 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:59:06 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:59:06 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:59:06 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:59:06 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:59:06 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 247
+[10-Nov-2019 18:59:06 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 248
+[10-Nov-2019 18:59:08 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:59:08 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 18:59:08 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 18:59:08 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 18:59:08 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 18:59:08 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 18:59:08 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 18:59:08 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 18:59:08 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 18:59:08 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 18:59:08 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 18:59:08 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 247
+[10-Nov-2019 18:59:08 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 248
+[10-Nov-2019 19:09:33 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 234
+[10-Nov-2019 19:09:33 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 234
+[10-Nov-2019 19:09:33 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 235
+[10-Nov-2019 19:09:33 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 19:09:33 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 19:09:33 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 19:09:33 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 19:09:33 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 19:09:33 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 19:09:33 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 243
+[10-Nov-2019 19:09:33 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 19:09:33 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 19:09:33 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 19:09:50 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 234
+[10-Nov-2019 19:09:50 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 234
+[10-Nov-2019 19:09:50 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 235
+[10-Nov-2019 19:09:50 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 19:09:50 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 19:09:50 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 19:09:50 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 19:09:50 UTC] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[10-Nov-2019 19:09:50 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 19:09:50 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 243
+[10-Nov-2019 19:09:50 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 19:09:50 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 19:09:50 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 246
+[10-Nov-2019 19:13:16 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 234
+[10-Nov-2019 19:13:16 UTC] PHP Warning:  mkdir(): File exists in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 234
+[10-Nov-2019 19:13:16 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 235
+[10-Nov-2019 19:26:20 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 233
+[10-Nov-2019 19:26:20 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 234
+[10-Nov-2019 19:29:10 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 233
+[10-Nov-2019 19:29:10 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 234
+[10-Nov-2019 19:29:10 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 235
+[10-Nov-2019 19:29:10 UTC] PHP Warning:  fopen(7): failed to open stream: Is a directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 235
+[10-Nov-2019 19:29:10 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 19:29:10 UTC] PHP Warning:  fopen(7): failed to open stream: Is a directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 19:29:10 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 19:29:10 UTC] PHP Warning:  fopen(7): failed to open stream: Is a directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 19:29:10 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 19:29:10 UTC] PHP Warning:  fopen(7): failed to open stream: Is a directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 19:29:10 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 19:29:10 UTC] PHP Warning:  fopen(7): failed to open stream: Is a directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 19:29:10 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 19:29:10 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 19:29:10 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 243
+[10-Nov-2019 19:29:10 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 19:29:10 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 19:29:16 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 233
+[10-Nov-2019 19:29:16 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 234
+[10-Nov-2019 19:29:16 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 235
+[10-Nov-2019 19:29:16 UTC] PHP Warning:  fopen(6): failed to open stream: Is a directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 235
+[10-Nov-2019 19:29:16 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 19:29:16 UTC] PHP Warning:  fopen(6): failed to open stream: Is a directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 19:29:16 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 19:29:16 UTC] PHP Warning:  fopen(6): failed to open stream: Is a directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 19:29:16 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 19:29:16 UTC] PHP Warning:  fopen(6): failed to open stream: Is a directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 19:29:16 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 19:29:16 UTC] PHP Warning:  fopen(6): failed to open stream: Is a directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 19:29:16 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 19:29:16 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 19:29:16 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 243
+[10-Nov-2019 19:29:16 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 19:29:16 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 19:29:59 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 235
+[10-Nov-2019 19:29:59 UTC] PHP Warning:  fopen(7): failed to open stream: Is a directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 235
+[10-Nov-2019 19:29:59 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 19:29:59 UTC] PHP Warning:  fopen(7): failed to open stream: Is a directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 19:29:59 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 19:29:59 UTC] PHP Warning:  fopen(7): failed to open stream: Is a directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 19:29:59 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 19:29:59 UTC] PHP Warning:  fopen(7): failed to open stream: Is a directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 19:29:59 UTC] PHP Warning:  A non-numeric value encountered in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 19:29:59 UTC] PHP Warning:  fopen(7): failed to open stream: Is a directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 19:29:59 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 19:29:59 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 19:29:59 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 243
+[10-Nov-2019 19:29:59 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 19:29:59 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 19:31:28 UTC] PHP Warning:  fopen(Users/mahav/Questions/Test Presentation/Q8/Question.txt): failed to open stream: Permission denied in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 235
+[10-Nov-2019 19:31:28 UTC] PHP Warning:  fopen(Users/mahav/Questions/Test Presentation/Q8/A1.txt): failed to open stream: Permission denied in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 19:31:28 UTC] PHP Warning:  fopen(Users/mahav/Questions/Test Presentation/Q8/A2.txt): failed to open stream: Permission denied in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 19:31:28 UTC] PHP Warning:  fopen(Users/mahav/Questions/Test Presentation/Q8/A3.txt): failed to open stream: Permission denied in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 19:31:28 UTC] PHP Warning:  fopen(Users/mahav/Questions/Test Presentation/Q8/A4.txt): failed to open stream: Permission denied in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 19:31:28 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 19:31:28 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 19:31:28 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 243
+[10-Nov-2019 19:31:28 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 19:31:28 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[10-Nov-2019 23:25:43 UTC] PHP Warning:  fopen(Users/mahav/Questions/Test Presentation/Q9/Question.txt): failed to open stream: Permission denied in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 235
+[10-Nov-2019 23:25:43 UTC] PHP Warning:  fopen(Users/mahav/Questions/Test Presentation/Q9/A1.txt): failed to open stream: Permission denied in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 236
+[10-Nov-2019 23:25:43 UTC] PHP Warning:  fopen(Users/mahav/Questions/Test Presentation/Q9/A2.txt): failed to open stream: Permission denied in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 237
+[10-Nov-2019 23:25:43 UTC] PHP Warning:  fopen(Users/mahav/Questions/Test Presentation/Q9/A3.txt): failed to open stream: Permission denied in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 238
+[10-Nov-2019 23:25:43 UTC] PHP Warning:  fopen(Users/mahav/Questions/Test Presentation/Q9/A4.txt): failed to open stream: Permission denied in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[10-Nov-2019 23:25:43 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 241
+[10-Nov-2019 23:25:43 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 242
+[10-Nov-2019 23:25:43 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 243
+[10-Nov-2019 23:25:43 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 244
+[10-Nov-2019 23:25:43 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 245
+[11-Nov-2019 00:02:46 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/Question.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 333
+[11-Nov-2019 00:02:46 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/A1.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 334
+[11-Nov-2019 00:02:46 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/A2.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 335
+[11-Nov-2019 00:02:46 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/A3.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 336
+[11-Nov-2019 00:02:46 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/A4.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 337
+[11-Nov-2019 00:02:46 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 339
+[11-Nov-2019 00:02:46 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 340
+[11-Nov-2019 00:02:46 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 341
+[11-Nov-2019 00:02:46 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 342
+[11-Nov-2019 00:02:46 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 343
+[11-Nov-2019 00:06:10 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/Question.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 333
+[11-Nov-2019 00:06:10 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/A1.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 334
+[11-Nov-2019 00:06:10 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/A2.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 335
+[11-Nov-2019 00:06:10 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/A3.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 336
+[11-Nov-2019 00:06:10 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/A4.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 337
+[11-Nov-2019 00:06:10 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 339
+[11-Nov-2019 00:06:10 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 340
+[11-Nov-2019 00:06:10 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 341
+[11-Nov-2019 00:06:10 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 342
+[11-Nov-2019 00:06:10 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 343
+[11-Nov-2019 00:09:29 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/Question.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 333
+[11-Nov-2019 00:09:29 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/A1.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 334
+[11-Nov-2019 00:09:29 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/A2.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 335
+[11-Nov-2019 00:09:29 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/A3.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 336
+[11-Nov-2019 00:09:29 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/A4.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 337
+[11-Nov-2019 00:09:29 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 339
+[11-Nov-2019 00:09:29 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 340
+[11-Nov-2019 00:09:29 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 341
+[11-Nov-2019 00:09:29 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 342
+[11-Nov-2019 00:09:29 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 343
+[11-Nov-2019 00:12:49 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/Question.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 333
+[11-Nov-2019 00:12:49 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/A1.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 334
+[11-Nov-2019 00:12:49 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/A2.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 335
+[11-Nov-2019 00:12:49 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/A3.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 336
+[11-Nov-2019 00:12:49 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/A4.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 337
+[11-Nov-2019 00:12:49 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 339
+[11-Nov-2019 00:12:49 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 340
+[11-Nov-2019 00:12:49 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 341
+[11-Nov-2019 00:12:49 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 342
+[11-Nov-2019 00:12:49 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 343
+[11-Nov-2019 00:12:57 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/Question.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 333
+[11-Nov-2019 00:12:57 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/A1.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 334
+[11-Nov-2019 00:12:57 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/A2.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 335
+[11-Nov-2019 00:12:57 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/A3.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 336
+[11-Nov-2019 00:12:57 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/A4.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 337
+[11-Nov-2019 00:12:57 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 339
+[11-Nov-2019 00:12:57 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 340
+[11-Nov-2019 00:12:57 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 341
+[11-Nov-2019 00:12:57 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 342
+[11-Nov-2019 00:12:57 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 343
+[11-Nov-2019 00:14:04 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/Question.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 333
+[11-Nov-2019 00:14:04 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/A1.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 334
+[11-Nov-2019 00:14:04 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/A2.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 335
+[11-Nov-2019 00:14:04 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/A3.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 336
+[11-Nov-2019 00:14:04 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/A4.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 337
+[11-Nov-2019 00:14:04 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 339
+[11-Nov-2019 00:14:04 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 340
+[11-Nov-2019 00:14:04 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 341
+[11-Nov-2019 00:14:04 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 342
+[11-Nov-2019 00:14:04 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 343
+[11-Nov-2019 00:14:14 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/Question.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 333
+[11-Nov-2019 00:14:14 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/A1.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 334
+[11-Nov-2019 00:14:14 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/A2.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 335
+[11-Nov-2019 00:14:14 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/A3.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 336
+[11-Nov-2019 00:14:14 UTC] PHP Warning:  fopen(Users/mahav/Questions//Q4/A4.txt): failed to open stream: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 337
+[11-Nov-2019 00:14:14 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 339
+[11-Nov-2019 00:14:14 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 340
+[11-Nov-2019 00:14:14 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 341
+[11-Nov-2019 00:14:14 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 342
+[11-Nov-2019 00:14:14 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 343
+[11-Nov-2019 00:19:58 UTC] PHP Warning:  fopen(Users/mahav/Questions/Test Presentation/Q4/Question.txt): failed to open stream: Permission denied in /home/awasthim/public_html/SafeMedia/UpQuestion.php on line 19
+[11-Nov-2019 00:19:58 UTC] PHP Warning:  fopen(Users/mahav/Questions/Test Presentation/Q4/A1.txt): failed to open stream: Permission denied in /home/awasthim/public_html/SafeMedia/UpQuestion.php on line 20
+[11-Nov-2019 00:19:58 UTC] PHP Warning:  fopen(Users/mahav/Questions/Test Presentation/Q4/A2.txt): failed to open stream: Permission denied in /home/awasthim/public_html/SafeMedia/UpQuestion.php on line 21
+[11-Nov-2019 00:19:58 UTC] PHP Warning:  fopen(Users/mahav/Questions/Test Presentation/Q4/A3.txt): failed to open stream: Permission denied in /home/awasthim/public_html/SafeMedia/UpQuestion.php on line 22
+[11-Nov-2019 00:19:58 UTC] PHP Warning:  fopen(Users/mahav/Questions/Test Presentation/Q4/A4.txt): failed to open stream: Permission denied in /home/awasthim/public_html/SafeMedia/UpQuestion.php on line 23
+[11-Nov-2019 00:19:58 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/UpQuestion.php on line 26
+[11-Nov-2019 00:19:58 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/UpQuestion.php on line 27
+[11-Nov-2019 00:19:58 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/UpQuestion.php on line 28
+[11-Nov-2019 00:19:58 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/UpQuestion.php on line 29
+[11-Nov-2019 00:19:58 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/UpQuestion.php on line 30
+[11-Nov-2019 00:19:58 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/UpQuestion.php on line 35
+[11-Nov-2019 00:19:58 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/UpQuestion.php on line 36
+[11-Nov-2019 00:19:58 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/UpQuestion.php on line 37
+[11-Nov-2019 00:19:58 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/UpQuestion.php on line 38
+[11-Nov-2019 00:19:58 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/awasthim/public_html/SafeMedia/UpQuestion.php on line 39
+[11-Nov-2019 02:02:17 UTC] PHP Warning:  scandir(Users/123/Questions/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 268
+[11-Nov-2019 02:02:17 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 268
+[11-Nov-2019 02:02:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 268
+[11-Nov-2019 02:02:17 UTC] PHP Warning:  scandir(Users/123/Questions//): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 297
+[11-Nov-2019 02:02:17 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 297
+[11-Nov-2019 02:02:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 297
+[11-Nov-2019 03:20:41 UTC] PHP Warning:  scandir(Users/123/Questions/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 268
+[11-Nov-2019 03:20:41 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 268
+[11-Nov-2019 03:20:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 268
+[11-Nov-2019 03:20:41 UTC] PHP Warning:  scandir(Users/123/Questions//): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 297
+[11-Nov-2019 03:20:41 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 297
+[11-Nov-2019 03:20:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 297
+[11-Nov-2019 03:29:37 UTC] PHP Warning:  scandir(Users/mahav/Questions/Question.txt/): failed to open dir: Not a directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 297
+[11-Nov-2019 03:29:37 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 297
+[11-Nov-2019 03:29:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 297
+[11-Nov-2019 03:29:44 UTC] PHP Warning:  scandir(Users/mahav/Questions/A1.txt/): failed to open dir: Not a directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 297
+[11-Nov-2019 03:29:44 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 297
+[11-Nov-2019 03:29:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 297
+[11-Nov-2019 03:29:55 UTC] PHP Warning:  scandir(Users/mahav/Questions/Question.txt/): failed to open dir: Not a directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 297
+[11-Nov-2019 03:29:55 UTC] PHP Warning:  scandir(): (errno 20): Not a directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 297
+[11-Nov-2019 03:29:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 297
+[11-Nov-2019 03:34:45 UTC] PHP Warning:  scandir(Users/123/Questions/Middle of the Code.pptx/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 235
+[11-Nov-2019 03:34:45 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 235
+[11-Nov-2019 03:34:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 235
+[11-Nov-2019 03:34:45 UTC] PHP Warning:  mkdir(): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 239
+[11-Nov-2019 03:34:45 UTC] PHP Warning:  chmod(): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 240
+[11-Nov-2019 03:34:45 UTC] PHP Warning:  scandir(Users/123/Questions/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 268
+[11-Nov-2019 03:34:45 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 268
+[11-Nov-2019 03:34:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 268
+[11-Nov-2019 03:34:45 UTC] PHP Warning:  scandir(Users/123/Questions//): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 297
+[11-Nov-2019 03:34:45 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 297
+[11-Nov-2019 03:34:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 297
+[11-Nov-2019 03:35:28 UTC] PHP Warning:  scandir(Users/123/Questions/): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 268
+[11-Nov-2019 03:35:28 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 268
+[11-Nov-2019 03:35:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 268
+[11-Nov-2019 03:35:28 UTC] PHP Warning:  scandir(Users/123/Questions//): failed to open dir: No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 297
+[11-Nov-2019 03:35:28 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 297
+[11-Nov-2019 03:35:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/awasthim/public_html/SafeMedia/Questionaires.php on line 297
+[11-Nov-2019 04:59:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/awasthim/public_html/SafeMedia/reports.php on line 197
+[11-Nov-2019 04:59:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/awasthim/public_html/SafeMedia/reports.php on line 197
+[11-Nov-2019 05:00:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/awasthim/public_html/SafeMedia/reports.php on line 198
+[11-Nov-2019 05:00:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/awasthim/public_html/SafeMedia/reports.php on line 198
+[11-Nov-2019 05:00:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/awasthim/public_html/SafeMedia/reports.php on line 198
+[11-Nov-2019 05:01:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/awasthim/public_html/SafeMedia/reports.php on line 198
+[11-Nov-2019 05:01:30 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/awasthim/public_html/SafeMedia/reports.php on line 194
+[11-Nov-2019 05:01:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/awasthim/public_html/SafeMedia/reports.php on line 194
+[11-Nov-2019 05:01:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/awasthim/public_html/SafeMedia/reports.php on line 194
+[11-Nov-2019 05:01:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/awasthim/public_html/SafeMedia/reports.php on line 194
+[11-Nov-2019 05:01:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/awasthim/public_html/SafeMedia/reports.php on line 194
+[11-Nov-2019 05:01:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/awasthim/public_html/SafeMedia/reports.php on line 194
+[11-Nov-2019 05:01:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/awasthim/public_html/SafeMedia/reports.php on line 194
+[11-Nov-2019 05:01:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/awasthim/public_html/SafeMedia/reports.php on line 194
+[11-Nov-2019 05:01:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/awasthim/public_html/SafeMedia/reports.php on line 194
+[11-Nov-2019 05:02:13 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/awasthim/public_html/SafeMedia/reports.php on line 198
+[11-Nov-2019 05:04:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/awasthim/public_html/SafeMedia/reports.php on line 198
+[11-Nov-2019 05:06:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/awasthim/public_html/SafeMedia/reports.php on line 201
+[11-Nov-2019 05:06:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/awasthim/public_html/SafeMedia/reports.php on line 201
+[11-Nov-2019 05:06:19 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/awasthim/public_html/SafeMedia/reports.php on line 201
+[11-Nov-2019 05:09:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/awasthim/public_html/SafeMedia/reports.php on line 202
+[11-Nov-2019 05:09:43 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/awasthim/public_html/SafeMedia/reports.php on line 202
+[11-Nov-2019 05:10:17 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/awasthim/public_html/SafeMedia/reports.php on line 202
+[11-Nov-2019 05:12:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/awasthim/public_html/SafeMedia/reports.php on line 201
+[11-Nov-2019 05:12:27 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/awasthim/public_html/SafeMedia/reports.php on line 201
+[11-Nov-2019 05:12:27 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/awasthim/public_html/SafeMedia/reports.php on line 201
+[11-Nov-2019 05:12:28 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/awasthim/public_html/SafeMedia/reports.php on line 201

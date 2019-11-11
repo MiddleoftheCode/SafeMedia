@@ -18,8 +18,13 @@ $username = $_SESSION['user'];
 $target_path = "Users/" . $username . "/Presentations/" ;
 $target_file = $target_path.basename( $_FILES["presentationFile"]["name"]);
 
+$file = basename($target_file);
+
+
 if (move_uploaded_file($_FILES["presentationFile"]["tmp_name"], $target_file)) {
-       header("Location: http://awasthim.dev.fast.sheridanc.on.ca/SafeMedia/Presentations.php");
+     mkdir ("Users/$username/Questions/$file");
+     chmod("Users/$username/Questions/$file", 0777);
+      header("Location: http://awasthim.dev.fast.sheridanc.on.ca/SafeMedia/Presentations.php");
     } else {
         echo "Sorry, there was an error uploading your file.";
     }

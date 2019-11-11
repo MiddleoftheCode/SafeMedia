@@ -1,31 +1,50 @@
 <?php
-  session_start(); 
+  session_start();
+   
 ?>
 
 <!DOCTYPE html>
 <html>
 <title>SafeMedia</title>
-<meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <body id="myPage" style ="background-color:#808080;">
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-
-
 <div class="w3-top">
  <div class="w3-bar w3-theme-d2 w3-left-align">
   <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
   <a href="index.php" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>SafeMedia</a>
   <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
     <div class="w3-dropdown-hover w3-hide-small">
-    <button class="w3-button" title="Notifications">Account   <i class="fa fa-caret-down"></i></button>     
+    <button class="w3-button" title="Notifications">Account<i class="fa fa-caret-down"></i></button>     
     <div class="w3-dropdown-content w3-card-4 w3-bar-block">
-      <a href="Presentations.php" class="w3-bar-item w3-button">Presentations</a>
-      <a href="Questionaires.php" class="w3-bar-item w3-button">Questionnaires</a>
-	  <a href="reports.php" class="w3-bar-item w3-button">Reports</a>
-      <button class="w3-bar-item w3-button" onclick="document.getElementById('id01').style.display='block'" > <?php 
+      <?php 
+      if(isset($_SESSION['user']))
+      {
+         ?>  <a href="Presentations.php" class="w3-bar-item w3-button">Presentations</a> <?php
+       
+      }
+      ?>
+      <?php 
+      if(isset($_SESSION['user']))
+      {
+         ?>   <a href="Questionaires.php" class="w3-bar-item w3-button">Questionnaires</a> <?php
+       
+      }
+      ?>
+      <?php 
+      if(isset($_SESSION['user']))
+      {
+         ?> <a href="reports.php" class="w3-bar-item w3-button">Reports</a> <?php
+       
+      }
+      ?>
+      
+      <button class="w3-bar-item w3-button" onclick="document.getElementById('id01').style.display='block'" > 
+      <?php 
       if(isset($_SESSION['user']))
       {
          echo($_SESSION["user"]); 
@@ -48,223 +67,106 @@
  </div>
 
 </div>
+<script>
+function questions(choice){
+    
+   var temp = choice;
+    temp = temp.split(">").pop();
+    temp = temp.substr(1);
+    
+   window.open("reports.php?temp="+temp,"_self");
+    
+    
+ }
+</script>
 
 
 <nav class="w3-sidebar w3-bar-block w3-collapse w3-white w3-animate-left w3-card" style="z-index:-1;width:320px; position:relative; top: 40px;" id="mySidebar">
   <a href="javascript:void(0)" class="w3-bar-item w3-button w3-border-bottom w3-large"><img src="powerpoint.png" style="width:20%;"> Presentations</a>
-  <a href="javascript:void(0)" class="w3-bar-item w3-button"  onclick="openReport('General');w3_close();" ><img src="powerpoint.png" style="width:5%;">General Saftey</a>
-  <a href="javascript:void(0)" class="w3-bar-item w3-button"  onclick="openReport('WHMIS');w3_close();" ><img src="powerpoint.png" style="width:5%;"></i>WHMIS Training</a>
-  <a href="javascript:void(0)" class="w3-bar-item w3-button"  onclick="openReport('Operating');w3_close();" ><img src="powerpoint.png" style="width:5%;"></i>Operating Forklift</a>
-   <a href="javascript:void(0)" class="w3-bar-item w3-button"  onclick="openReport('Customer');w3_close();" ><img src="powerpoint.png" style="width:5%;"></i>Customer Interaction</a>
-  <a href="javascript:void(0)" class="w3-bar-item w3-button"  onclick="openReport('HR');w3_close();" ><img src="powerpoint.png" style="width:5%;"></i>HR Presentation</a>
-  <a href="javascript:void(0)" class="w3-bar-item w3-button"  onclick="openReport('Marketing');w3_close();" ><img src="powerpoint.png" style="width:5%;"></i>Marketing Presentation</a>
-   <a href="javascript:void(0)" class="w3-bar-item w3-button"  onclick="openReport('Sales');w3_close();" ><img src="powerpoint.png" style="width:5%;"></i>Sales Presentation</a>
+  <p id = "q"><br></p>
+  <script>
+    <?php
+    $username = $_SESSION['user'];
+    
+    $i=0;
+    foreach(scandir("Users/".$username."/Questions/") as $folder) {
+        if($i++ <= 1)
+        {
+            continue;
+        }
+     ?>
+    
+      $("#q").append("<a href='#' class='w3-bar-item w3-button' name = 'presentation' onClick = 'questions(this.innerHTML);' > <img src='powerpoint.png' style='width:5%;' >" + " <?php echo($folder); ?> " +"</a>");
+    
+    <?php
+    }
+    ?>
+   
+</script>
 </nav>
 
 
 <div id = "reports">
 
-<div id="General" class="w3-container person" style = "display: none;  position: absolute;  top: 40px; left:400px;z-index:-1;">
+<div id="General" class="w3-container person" style = "position: absolute;  top: 40px; left:400px;z-index:-1;">
   <br>
-  <img class="w3-round w3-animate-top" src="chart1.png" style = "width:50%">
-				  <div class="w3-panel">
-					<div class="w3-row-padding" >
-					  <div class="w3-twothird">
-						<h5>Questions</h5>
-						<table class="w3-table w3-striped w3-white">
-						  <tr>
-							<td><img src="question.png" style="width:5%;">
-							Question 1</td>
-							<td>72% Answered Correctly</td>
-							<td><i><a href = "#">Details</a></i></td>
-						  </tr>
-						  <tr>
-							<td><img src="question.png" style="width:5%;">
-							  Question 2</td>
-							<td>67% Answered Correctly</td>
-							<td><i><a href = "#">Details</a></i></td>
-						  </tr>
-						  <tr>
-							<td><img src="question.png" style="width:5%;">
-							Question 3</td>
-							<td>88% Answered Correctly</td>
-							<td><i><a href = "#">Details</a></i></td>
-						  </tr>
-						 <tr>
-							<td><img src="question.png" style="width:5%;">
-							Question 4</td>
-							<td>72% Answered Correctly</td>
-							<td><i><a href = "#">Details</a></i></td>
-						  </tr>
-						  <tr>
-							<td><img src="question.png" style="width:5%;">
-							Question 5</td>
-							<td>77% Answered Correctly</td>
-							<td><i><a href = "#">Details</a></i></td>
-						  </tr>
-						 
-						</table>
-					  </div>
-					</div>
-				  </div>
-</div>
 
-<div id="WHMIS" class="w3-container person" style = "display: none;  position: absolute;  top: 40px; left:400px;z-index:-1">
-  <br>
-  <img class="w3-round w3-animate-top" src="chart2.png"  style="width:50%;">
-   <div class="w3-panel">
-					<div class="w3-row-padding" >
-					  <div class="w3-twothird">
-						<h5>Questions</h5>
-						<table class="w3-table w3-striped w3-white">
-						  <tr>
-							<td><img src="question.png" style="width:5%;">
-							Question 1</td>
-							<td>88% Answered Correctly</td>
-							<td><i><a href = "#">Details</a></i></td>
-						  </tr>
-						  <tr>
-							<td><img src="question.png" style="width:5%;">
-							  Question 2</td>
-							<td>67% Answered Correctly</td>
-							<td><i><a href = "#">Details</a></i></td>
-						  </tr>
-						
-						 
-						</table>
-					  </div>
-					</div>
-				  </div>
+<table style = "border: 1px solid black;">
+    <tr>
+        <th style = "border: 1px solid black;">Employee ID</th>
+        <th  style = "border: 1px solid black;">Presentation Viewed</th>
+        <th  style = "border: 1px solid black;" >Score Achieved</th>
+    </tr>
+    <?php
+    
+               
+                 $servername = "localhost";
+                                                $username = "awasthim_omar";
+                                                $password = "_7dWDq+Fq&0&";
+                                                $connectioninfo = "awasthim_safemedia";
+                                                
+                                                $conn = new mysqli($servername, $username, $password, $connectioninfo);
+                                                
+                                                
+                                                
+                                                
+                                                if($conn->connect_error)
+                                                {
+                                                    header("Location: http://awasthim.dev.fast.sheridanc.on.ca/SafeMediaApp/index.php");
+                                                }
+                                                
+                if(isset($_GET['temp']))
+                {
+                        $presentation = $_GET['temp'];                                
+                        
+                        $result  = $conn->query( "SELECT * FROM scores WHERE Presentation = '$presentation'") or die($conn->error);
+                        
+                        
+                        if ($result->num_rows > 0) {
+                           foreach($result as $row => $value) 
+                            {
+                                ?> <tr>
+                                            <td  style = "border: 1px solid black;"><?php echo($value['empID']); ?></td>    
+                                            <td  style = "border: 1px solid black;"><?php echo($value['Presentation']);?></td>
+                                            <td  style = "border: 1px solid black;" ><?php echo($value['Score']);?>%</td>
+                                    </tr>
+                                <?php    
+                            }  
+                           
+                           
+                            
+                        }
+                        
+                }
+                
+            $conn->close();
+    
+    ?>
+</table>
 </div>
-
-<div id="Operating" class="w3-container person" style = "display: none; position: absolute;  top: 40px; left:400px; z-index:-1">
-  <br>
-  <img class="w3-round w3-animate-top"src="chart3.png"  style="width:50%;">
-   <div class="w3-panel">
-					<div class="w3-row-padding" >
-					  <div class="w3-twothird">
-						<h5>Questions</h5>
-						<table class="w3-table w3-striped w3-white">
-						  <tr>
-							<td><img src="question.png" style="width:5%;">
-							Question 1</td>
-							<td>69% Answered Correctly</td>
-							<td><i><a href = "#">Details</a></i></td>
-						  </tr>
-						  <tr>
-							<td><img src="question.png" style="width:5%;">
-							  Question 2</td>
-							<td>67% Answered Correctly</td>
-							<td><i><a href = "#">Details</a></i></td>
-						  </tr>
-						  <tr>
-							<td><img src="question.png" style="width:5%;">
-							Question 3</td>
-							<td>77% Answered Correctly</td>
-							<td><i><a href = "#">Details</a></i></td>
-						  </tr>
-						 <tr>
-							<td><img src="question.png" style="width:5%;">
-							Question 4</td>
-							<td>72% Answered Correctly</td>
-							<td><i><a href = "#">Details</a></i></td>
-						  </tr>
-						  <tr>
-							<td><img src="question.png" style="width:5%;">
-							Question 5</td>
-							<td>77% Answered Correctly</td>
-							<td><i><a href = "#">Details</a></i></td>
-						  </tr>
-						 
-						  
-						
-						</table>
-					  </div>
-					</div>
-				  </div>
-</div>
-<div id="Customer" class="w3-container person" style = "display: none; position: absolute;  top: 40px; left:400px; z-index:-1">
-  <br>
-  <img class="w3-round w3-animate-top" src="chart1.png"  style="width:50%;">
-   <div class="w3-panel">
-					<div class="w3-row-padding" >
-					  <div class="w3-twothird">
-						<h5>Questions</h5>
-						<table class="w3-table w3-striped w3-white">
-						  <tr>
-							<td><img src="question.png" style="width:5%;">
-							Question 1</td>
-							<td>98% Answered Correctly</td>
-							<td><i><a href = "#">Details</a></i></td>
-						  </tr>
-						  <tr>
-							<td><img src="question.png" style="width:5%;">
-							  Question 2</td>
-							<td>67% Answered Correctly</td>
-							<td><i><a href = "#">Details</a></i></td>
-						  </tr>
-						  <tr>
-							<td><img src="question.png" style="width:5%;">
-							Question 3</td>
-							<td>69% Answered Correctly</td>
-							<td><i><a href = "#">Details</a></i></td>
-						  </tr>
-				
-						</table>
-					  </div>
-					</div>
-				  </div>
-</div>
-<div id="HR" class="w3-container person" style = "display: none; position: absolute;  top: 40px; left:400px; z-index:-1">
-  <br>
-  <img class="w3-round w3-animate-top" src="chart2.png"  style="width:50%;">
-   <div class="w3-panel">
-					<div class="w3-row-padding" >
-					  <div class="w3-twothird">
-						<h5>Questions</h5>
-						<table class="w3-table w3-striped w3-white">
-						  <tr>
-							<td><img src="question.png" style="width:5%;">
-							Question 1</td>
-							<td>69% Answered Correctly</td>
-							<td><i><a href = "#">Details</a></i></td>
-						  </tr>
-						  <tr>
-							<td><img src="question.png" style="width:5%;">
-							  Question 2</td>
-							<td>74% Answered Correctly</td>
-							<td><i><a href = "#">Details</a></i></td>
-						  </tr>
-						  <tr>
-							<td><img src="question.png" style="width:5%;">
-							Question 3</td>
-							<td>78% Answered Correctly</td>
-							<td><i><a href = "#">Details</a></i></td>
-						  </tr>
-						 <tr>
-							<td><img src="question.png" style="width:5%;">
-							Question 4</td>
-							<td>45% Answered Correctly</td>
-							<td><i><a href = "#">Details</a></i></td>
-						  </tr>
-						  <tr>
-							<td><img src="question.png" style="width:5%;">
-							Question 5</td>
-							<td>88% Answered Correctly</td>
-							<td><i><a href = "#">Details</a></i></td>
-						  </tr>
-						  
-						</table>
-					  </div>
-					</div>
-				  </div>
-</div>
-
 </div>
 
 
-
-</div>
 
 <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center" style = "position: relative; top: 1500px;width: 100%; height: 15%;">
   <h4>Follow Us</h4>

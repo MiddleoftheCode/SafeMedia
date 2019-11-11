@@ -20,19 +20,36 @@
 
 
 
-
-<!-- Navbar -->
 <div class="w3-top">
  <div class="w3-bar w3-theme-d2 w3-left-align">
   <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
   <a href="index.php" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>SafeMedia</a>
   <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
     <div class="w3-dropdown-hover w3-hide-small">
-    <button class="w3-button" title="Notifications">Account   <i class="fa fa-caret-down"></i></button>     
+    <button class="w3-button" title="Notifications">Account<i class="fa fa-caret-down"></i></button>     
     <div class="w3-dropdown-content w3-card-4 w3-bar-block">
-      <a href="Presentations.php" class="w3-bar-item w3-button">Presentations</a>
-      <a href="Questionaires.php" class="w3-bar-item w3-button">Questionnaires</a>
-	  <a href="reports.php" class="w3-bar-item w3-button">Reports</a>
+      <?php 
+      if(isset($_SESSION['user']))
+      {
+         ?>  <a href="Presentations.php" class="w3-bar-item w3-button">Presentations</a> <?php
+       
+      }
+      ?>
+      <?php 
+      if(isset($_SESSION['user']))
+      {
+         ?>   <a href="Questionaires.php" class="w3-bar-item w3-button">Questionnaires</a> <?php
+       
+      }
+      ?>
+      <?php 
+      if(isset($_SESSION['user']))
+      {
+         ?> <a href="reports.php" class="w3-bar-item w3-button">Reports</a> <?php
+       
+      }
+      ?>
+      
       <button class="w3-bar-item w3-button" onclick="document.getElementById('id01').style.display='block'" > 
       <?php 
       if(isset($_SESSION['user']))
@@ -80,9 +97,10 @@
 
     
     foreach(glob("Users/" . $username . "/Presentations"."/*.*") as $file) {
-   ?>
+        
+     ?>
     
-    $("#pre").html("<div  style = 'margin: 20px;' class='w3-container w3-card w3-white w3-round w3-margin' ><br><img src='powerpoint.png' alt='Avatar' class='w3-left w3-circle w3-margin-right' style='width:50px;'> " + "<h4> <?php echo($file); ?> </h4> " + "</div>");
+    $("#pre").append("<div  style = 'margin: 20px;' class='w3-container w3-card w3-white w3-round w3-margin' ><br><img src='powerpoint.png' alt='Avatar' class='w3-left w3-circle w3-margin-right' style='width:50px;'> " + "<h4> <?php echo(basename($file)); ?> </h4> " + "</div>");
     
     <?php
     }
@@ -100,6 +118,8 @@
         <input type = "submit" name = "submit" value = "Upload Presentation">
 </div>
 </form>
+
+
 <!-- Footer -->
 <br><br>
 <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center" style = "position: relative;bottom:0;  width: 100%;">

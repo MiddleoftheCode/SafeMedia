@@ -25,11 +25,11 @@ $sql = "INSERT INTO account (Name, Email, Username, Password, phnum, address) VA
 
 if ($conn->query($sql) === TRUE) {
     mkdir ("Users/$_POST[username]");
-    chmod("Users/$_POST[username]", 755);
+    chmod("Users/$_POST[username]", 0777);
     mkdir ("Users/$_POST[username]/Presentations");
-    chmod("Users/$_POST[username]/Presentations", 755);
+    chmod("Users/$_POST[username]/Presentations", 0777);
      mkdir ("Users/$_POST[username]/Questions");
-     chmod("Users/$_POST[username]/Questions", 755);
+     chmod("Users/$_POST[username]/Questions", 0777);
     header("Location: http://awasthim.dev.fast.sheridanc.on.ca/SafeMedia/index.php");
     die();
     

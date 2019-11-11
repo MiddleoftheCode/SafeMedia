@@ -139,21 +139,38 @@ span.psw {
 }
 </style>
 
-
-
-<!-- Navbar -->
 <div class="w3-top">
  <div class="w3-bar w3-theme-d2 w3-left-align">
   <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
   <a href="index.php" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>SafeMedia</a>
   <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
     <div class="w3-dropdown-hover w3-hide-small">
-    <button class="w3-button" title="Notifications">Account   <i class="fa fa-caret-down"></i></button>     
+    <button class="w3-button" title="Notifications">Account<i class="fa fa-caret-down"></i></button>     
     <div class="w3-dropdown-content w3-card-4 w3-bar-block">
-      <a href="Presentations.php" class="w3-bar-item w3-button">Presentations</a>
-      <a href="Questionaires.php" class="w3-bar-item w3-button">Questionnaires</a>
-	  <a href="reports.php" class="w3-bar-item w3-button">Reports</a>
-      <button class="w3-bar-item w3-button" onclick="document.getElementById('id01').style.display='block'" > <?php 
+      <?php 
+      if(isset($_SESSION['user']))
+      {
+         ?>  <a href="Presentations.php" class="w3-bar-item w3-button">Presentations</a> <?php
+       
+      }
+      ?>
+      <?php 
+      if(isset($_SESSION['user']))
+      {
+         ?>   <a href="Questionaires.php" class="w3-bar-item w3-button">Questionnaires</a> <?php
+       
+      }
+      ?>
+      <?php 
+      if(isset($_SESSION['user']))
+      {
+         ?> <a href="reports.php" class="w3-bar-item w3-button">Reports</a> <?php
+       
+      }
+      ?>
+      
+      <button class="w3-bar-item w3-button" onclick="document.getElementById('id01').style.display='block'" > 
+      <?php 
       if(isset($_SESSION['user']))
       {
          echo($_SESSION["user"]); 
@@ -176,6 +193,7 @@ span.psw {
  </div>
 
 </div>
+
 
 
 <!-- Image Header -->
